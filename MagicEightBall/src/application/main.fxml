@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="382.0" prefWidth="282.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.eightBallController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="27.0" layoutY="22.0" prefWidth="221.0" text="Magic Eight Ball">
+      <font>
+        <Font name="Cambria Math" size="30.0" />
+      </font>
+    </Label>
+    <Button fx:id="submitButton" layoutX="93.0" layoutY="145.0" mnemonicParsing="false" onAction="#askQuestion" text="Submit" />
+    <Label fx:id="answerLabel" layoutX="106.0" layoutY="243.0" text="answer" textFill="#001433" />
+  </children>
+</AnchorPane>
